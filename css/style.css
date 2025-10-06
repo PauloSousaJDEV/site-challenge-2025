@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: blue;
+    padding: 20px;
+}
+
+.header li {
+
+}
+
+.header li { 
+    display: inline;
+    margin-right: 40px;
+}
