@@ -6,15 +6,18 @@
 }
 
 .header {
-    background-color: blue;
-    padding: 20px;
-}
-
-.header li {
-
+    padding: 20px 80px;
 }
 
 .header li { 
     display: inline;
+}
+
+.header a {
+    text-decoration: none;
     margin-right: 40px;
+}
+
+.header a:visited {
+    color: inherit;
 }
