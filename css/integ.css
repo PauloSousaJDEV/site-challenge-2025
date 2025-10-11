@@ -35,6 +35,33 @@
     font-weight: bold;
 }
 
+.main {
+    width: 100%;
+    background-color: rgb(230, 240, 255);
+}
+
+.main div {
+    width: 100%;
+    margin: 0% auto;
+}
+
+.limita-area {
+    max-width: 1024px;
+}
+
+.limita-area h2 {
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    padding-top: 100px;
+    font-size: 25px;
+}
+
+.limita-area p {
+    line-height: 24px;
+    text-align: center;
+}
+
 @media screen and (min-width: 992px){
 
 }
