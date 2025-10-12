@@ -35,26 +35,16 @@
 .main {
     width: 100%;
     background-color: rgb(240, 240, 240);
-    padding-bottom: 300px;
-    font-size: 20px;
-}
-
-.main div {
-    width: 100%;
-    margin: 0% auto;
-    padding-bottom: 20px;
+    min-height: calc(100vh - 80px - 60px);
+    padding-bottom: 0;
+    box-sizing: border-box;
 }
 
 .limita-area {
-    max-width: 1024px;
-}
-
-.limita-area h2 {
-    width: 100%;
-    text-align: center;
-    padding: 25px 0;
-    padding-top: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
     font-size: 20px;
+    min-height: 80vh; /* aumenta a altura mínima da área central */
 }
 
 .limita-area p {
@@ -62,46 +52,33 @@
     line-height: 24px;
     text-align: center;
     justify-content: center;
-    width: 800px;
     align-items: center;
-    margin-left: 100px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto 16px auto;
+    padding-top: 160px;
 }
 
-.div-icones {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 32px;
-    margin-top: 16px;
-}
-
-.icone-item {
+.limita-area ul {
     display: flex;
     flex-direction: column;
+    line-height: 24px;
+    text-align: center;
+    justify-content: center;
     align-items: center;
-    gap: 8px;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto 0 auto;
+    padding-left: 0;
+    background-image: linear-gradient(to right, #32A6FF 10%, #0857F0 100%);
 }
 
-.icone-item span {
-    font-size: 22px;
-    color: rgb(26, 85, 133);
-    margin-top: 4px;
+.slogan {
+    font-style: italic;
+    color: rgb(100, 100, 100);
+    font-size: 18px;
+    padding-bottom: 50px;
 }
-
-.fa-solid.fa-palette,
-.fa-solid.fa-lightbulb,
-.fa-solid.fa-shield-halved,
-.fa-solid.fa-forward {
-    font-size: 50px;
-    color: rgb(22, 115, 190);
-    margin: 50px;
-}
-
-.seg-conteudo {
-    color: rgb(22, 115, 190);
-    font-size: 24px;
-}
-
 
 .footer {
     background-color: rgb(48, 48, 48);
@@ -154,10 +131,6 @@ body, html {
 .main {
     min-height: calc(100vh - 200px); /* 200px = approx. footer height */
     padding-bottom: 0;
-}
-
-.main .limita-area:last-child {
-    padding-bottom: 80px; /* ajuste o valor conforme desejar */
 }
 
 @media screen and (min-width: 992px) {
