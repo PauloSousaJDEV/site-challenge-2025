@@ -70,14 +70,20 @@ article {
     padding-bottom: 60px;
 }
 
-article section {
+.main-article-1 section {
     float: left;
     width: 50%;
     height: 100%;
 }
 
+.main-article-2 {
+    background-color: #F8F9FD;
+}
+
 .main-section-left {
     padding: 120px 60px 60px 0px;
+    width: 50%;
+    height: 100%;
 }
 
 .main-section-left h2 {
