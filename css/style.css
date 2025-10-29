@@ -39,22 +39,9 @@ h1, h2, h3, h4 {
 body, p, span, li {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  line-height: 1.6; /* melhora a leitura */
-  color: #333;      /* texto mais suave */
+  line-height: 1.6; 
 }
 
-
-@media (max-width: 390px) {
-    .container {
-        width: 90%;
-    }
-}
-
-@media (max-width: 810px) {
-    .container {
-        width: 80%;
-    }
-}
 
 .menu-bg {
     background-color: #004BFE;
@@ -116,6 +103,7 @@ body, p, span, li {
     max-width: 1200px;
     margin: 0 auto;
     padding: 15px 0px;
+    color: white;
 }
 
 .footer-nav ul {
@@ -153,16 +141,13 @@ body, p, span, li {
     background-color: white;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 15px 0px;
-}
-
 .intro {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    max-width: 1200px;
+    margin: 30px auto 60px;
+    padding: 15px 0px;
 }
 
 .intro-item {
@@ -196,4 +181,40 @@ body, p, span, li {
 .btn-intro:hover {
     background-position: 100% 0%; /* move o gradiente */
     transform: scale(1.05);
+}
+
+.marketing-bg {
+    background-color: #F6F6F6
+}
+
+.marketing {
+    align-items: center;
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 60px 15px;
+}
+
+.mkt-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.marketing h2 {
+    max-width: 70%;
+    line-height: 1;
+    font-weight: 500;
+    font-size: 3.25rem;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.marketing p {
+    max-width: 70%;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.marketing img {
+    margin: 0 auto 45px;
 }
