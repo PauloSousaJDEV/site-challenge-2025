@@ -22,6 +22,10 @@ p {
     font-size: .75rem;
 }
 
+body, html {
+    height: 100%;
+}
+
 @media (max-width: 390px) {
     .container {
         width: 90%;
@@ -34,44 +38,44 @@ p {
     }
 }
 
-header {
+.menu-bg {
     background-color: #004BFE;
-    margin: 0 auto;
-    width: 70%;
-}
-
-.container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    
-    padding: 20px 0px;
-
-    div {
-        display: flex;
-        align-items: center;
-    }
-
-    img {
-        height: 20px;
-    }
-
-    nav {
-        list-style-type: none;
-    }
 }
 
 .menu {
-    width: 450px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 0px;
+}
+
+.menu-logo img {
+    width: 190px;
+}
+
+.menu-logo a{
+    display: flex;
+    justify-items: center;
+}
+
+.menu-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-nav a {
+    display: block;
+    padding: 10px;
+    font-size: 1.25rem;
 }
 
 .menu a {
     color: #FFFFFF; 
     font-weight: bold;
-    padding: 10px;
+    padding: 10px 15px;
     text-decoration: none;
 }
 
@@ -80,7 +84,53 @@ header {
 }
 
 .menu a:hover {
-    color:rgb(171, 173, 255)
+    color:#05205f;
+}
+
+.footer-bg {
+    background-color: #2E2E2E
+}
+
+.footer-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 0px;
+    height: 150px;
+}
+
+.footer-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.footer-nav a:hover {
+    color: #5363f8
+}
+
+.footer-menu img {
+    width: 200px;
+}
+
+.footer-logo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    padding: 15px;    
 }
 
 .main {
@@ -153,55 +203,6 @@ header {
     font-size: 24px;
 }
 
-
-.footer {
-    background-color: rgb(48, 48, 48);
-    color: rgb(255, 255, 255);
-    padding: 8px 16px; /* reduced padding */
-    font-size: 20px;
-    box-shadow: 2px 2px 60px rgb(70, 70, 70);
-}
-
-.footer h2 {
-    color: rgb(148, 148, 148);
-    margin-left: 20px;   /* moves further right */
-    margin-top: 10px;    /* moves lower, but less than before */
-    position: relative;
-}
-
-.footer .f-ul {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.f-ul li {
-    text-align: center;
-    margin: 25px;
-}
-
-.f-ul a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-}
-
-.f-ul a:hover {
-    cursor: pointer;
-    color: rgb(62, 154, 230);
-}
-
-.footer .copy {
-    text-align: center;
-    margin-top: 8px;      /* reduced margin */
-    margin-bottom: 0;      /* remove negative margin */
-    color: rgb(184, 184, 184);
-    font-size: 16px;
-}
-
-body, html {
-    height: 100%;
-}
-
 .main {
     min-height: calc(100vh - 200px); /* 200px = approx. footer height */
     padding-bottom: 0;
@@ -211,6 +212,3 @@ body, html {
     padding-bottom: 80px; /* ajuste o valor conforme desejar */
 }
 
-@media screen and (min-width: 992px) {
-
-}
