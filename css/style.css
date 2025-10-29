@@ -165,28 +165,21 @@ body, p, span, li {
     align-items: center;
 }
 
-.intro-section {
-    padding: 15px;
+.intro-item {
+    flex: 1 1 300px;
+    margin: 15px
 }
 
-.intro-section-left {
-    width: 50%;
-}
-
-.intro-section-left h1 {
+.intro-item-left h1 {
     font-size: 4.80rem;
     font-weight: 600;
     line-height: 80px;
     margin-bottom: 12px;
 }
 
-.intro-section-left p {
+.intro-item-left p {
     width: 75%;
     margin-bottom: 48px
-}
-
-.intro-section-right {
-    width: 50%;
 }
 
 .btn-intro {
@@ -195,8 +188,12 @@ body, p, span, li {
     background: linear-gradient(90deg,rgba(112, 20, 142, 1) 0%, rgba(33, 75, 181, 1) 100%);
     padding: 10px 50px;
     border-radius: 4px;
+    transition: all 0.6s ease; /* <- AQUI fica o transition */
+    background-size: 200% 100%; /* permite “mover” o gradiente */
+    background-position: 0% 0%
 }
 
-.btn-intro a:hover {
-    background-color: #0056b3;
+.btn-intro:hover {
+    background-position: 100% 0%; /* move o gradiente */
+    transform: scale(1.05);
 }
