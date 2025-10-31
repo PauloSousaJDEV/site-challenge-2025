@@ -42,7 +42,6 @@ body, p, span, li {
   line-height: 1.6; 
 }
 
-
 .menu-bg {
     background-color: #004BFE;
 }
@@ -92,77 +91,61 @@ body, p, span, li {
     color:#05205f;
 }
 
-.footer-bg {
-    background-color: #2E2E2E
+.main-bg {
+    background-color: white;
 }
 
-.footer-menu {
+.secondary-bg {
+    background-color: #F6F6F6
+}
+
+.container {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 15px 0px;
-    color: white;
 }
 
-.footer-nav ul {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.footer-nav a {
-    color: white;
-    text-decoration: none;
-    display: block;
-    padding: 10px;
-    font-size: 1.25rem;
-    font-weight: bold;
-}
-
-.footer-nav a:hover {
-    color: #5363f8
-}
-
-.footer-menu img {
-    width: 200px;
-}
-
-.footer-logo {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    gap: 20px;
-    color: white;
-    padding: 15px;    
-}
-
-.main-bg {
-    background-color: white;
-}
-
-.intro {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    max-width: 1200px;
+.hero-section {
     margin: 30px auto 60px;
     padding: 15px 0px;
 }
 
-.intro-item {
+.hero-section__content {
     flex: 1 1 300px;
     margin: 15px
 }
 
-.intro-item-left h1 {
+.hero-section__content h1 {
     font-size: 4.80rem;
     font-weight: 600;
     line-height: 80px;
     margin-bottom: 12px;
 }
 
-.intro-item-left p {
+.hero-section__content p {
+    width: 480px;
+    margin-bottom: 48px
+}
+
+.split-section {
+    padding: 80px 0px;
+    gap: 40px
+}
+
+.split-section h3 {
+    font-size: 3rem;
+    line-height: 60px;
+    margin-bottom: 12px;
+}
+
+.split-section__content {
+    flex: 1 1 300px;
+    margin: 15px
+}
+
+.split-section__content p {
     width: 75%;
     margin-bottom: 48px
 }
@@ -183,14 +166,10 @@ body, p, span, li {
     transform: scale(1.05);
 }
 
-.marketing-bg {
-    background-color: #F6F6F6
-}
-
 .marketing {
     align-items: center;
     max-width: 1200px;
-    margin: 60px auto;
+    margin: 0px auto;
     padding: 60px 15px;
 }
 
@@ -234,7 +213,7 @@ body, p, span, li {
 }
 
 .marketing h2 {
-    max-width: 70%;
+    max-width: 800px;
     line-height: 1;
     font-weight: 500;
     font-size: 3.25rem;
@@ -243,11 +222,57 @@ body, p, span, li {
 }
 
 .mkt-top p {
-    max-width: 70%;
+    max-width: 800px;
     text-align: center;
     margin-bottom: 64px;
 }
 
 .mkt-top img {
     margin: 0 auto 45px;
+}
+
+
+.footer-bg {
+    background-color: #2E2E2E
+}
+
+.footer-menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 0px;
+    color: white;
+}
+
+.footer-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.footer-nav a:hover {
+    color: #5363f8
+}
+
+.footer-menu img {
+    width: 200px;
+}
+
+.footer-logo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    padding: 15px;    
 }
