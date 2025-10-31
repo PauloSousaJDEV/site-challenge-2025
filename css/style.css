@@ -42,6 +42,12 @@ body, p, span, li {
   line-height: 1.6; 
 }
 
+h3 {
+    font-size: 3rem;
+    line-height: 60px;
+    margin-bottom: 12px;
+}
+
 .menu-bg {
     background-color: #004BFE;
 }
@@ -134,12 +140,6 @@ body, p, span, li {
     gap: 40px
 }
 
-.split-section h3 {
-    font-size: 3rem;
-    line-height: 60px;
-    margin-bottom: 12px;
-}
-
 .split-section__content {
     flex: 1 1 300px;
     margin: 15px
@@ -170,13 +170,48 @@ body, p, span, li {
 
 .info-section {
     padding: 120px 0px;
-    gap: 40px
+    gap: 40px;
 }
 
-.info-section h3 {
-    font-size: 3rem;
-    line-height: 60px;
-    margin-bottom: 12px;
+.info-section__content {
+    margin: 0px 15px 64px;
+}
+
+.info-section__paragrafo {    
+    margin-bottom:64px
+}
+
+.opcoes-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.opcoes-menu li {
+    padding: 20px;
+    width: 300px;
+
+    border-radius: 4px
+}
+
+.opcoes-menu p {
+    font-weight: bold;
+    color: #3B3B3B
+}
+
+.opcoes-menu a {
+    border: 1px solid rgb(235, 235, 235);
+}
+
+.opcoes-menu a:hover {
+    color: white;
+    background-color: rgb(169, 164, 230);
+}
+
+.opcoes-menu img {
+    margin: 0 auto;
+    height: 150px;
+    margin-bottom: 20px;
 }
 
 .btn-intro {
@@ -220,7 +255,7 @@ body, p, span, li {
     width: 200px;
 }
 
-.divisor {
+.mkt-divisor-lista {
   display: block;
   width: 24px;
   height: 2px;
