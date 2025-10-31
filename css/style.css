@@ -130,7 +130,7 @@ body, p, span, li {
 }
 
 .split-section {
-    padding: 80px 0px;
+    padding: 120px 0px;
     gap: 40px
 }
 
@@ -146,8 +146,37 @@ body, p, span, li {
 }
 
 .split-section__content p {
-    width: 75%;
-    margin-bottom: 48px
+    width: 490px;
+    margin-bottom:64px
+}
+
+.split-section__content img {
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 8px
+}
+
+.split-section__content a {
+    border: 2px solid #627DFF;
+    border-radius: 4px;
+    padding: 10px 50px;
+    font-weight: bold;
+    color: #627DFF
+}
+
+.split-section__content a:hover {
+    background-color: #627DFF;
+    color: white
+}
+
+.info-section {
+    padding: 120px 0px;
+    gap: 40px
+}
+
+.info-section h3 {
+    font-size: 3rem;
+    line-height: 60px;
+    margin-bottom: 12px;
 }
 
 .btn-intro {
