@@ -200,6 +200,39 @@ body, p, span, li {
     align-items: center;
 }
 
+.mkt-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.mkt-lista li {
+    width: 200px;
+}
+
+.divisor {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: linear-gradient(90deg, rgba(112,20,142,1) 0%, rgba(33,75,181,1) 100%);
+  margin: 8px auto 16px;
+}
+
+.mkt-bottom img {
+    margin: 0 auto 20px
+}
+
+.mkt-bottom p {
+    text-align: center;
+    font-weight: bold;
+    color: #474645;
+    margin: 0 auto 30px;
+    letter-spacing: 4px;
+    width: 80%;
+}
+
 .marketing h2 {
     max-width: 70%;
     line-height: 1;
@@ -209,12 +242,12 @@ body, p, span, li {
     margin-bottom: 24px;
 }
 
-.marketing p {
+.mkt-top p {
     max-width: 70%;
     text-align: center;
-    margin-bottom: 48px;
+    margin-bottom: 64px;
 }
 
-.marketing img {
+.mkt-top img {
     margin: 0 auto 45px;
 }
