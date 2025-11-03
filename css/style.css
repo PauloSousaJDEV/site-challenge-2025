@@ -295,6 +295,31 @@ h3 {
     margin: 0 auto 45px;
 }
 
+.intro-bg {
+    background: linear-gradient(90deg,rgba(51, 205, 232, 1) 0%, rgba(24, 76, 154, 1) 100%);
+}
+
+.intro-page {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+    color: white;
+    padding: 80px 0px;
+    margin-bottom: 64px;
+}
+
+.intro-page h1 {
+    font-size: 3rem;
+}
+
+.integrantes-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 0;
+    width: 100%;
+    border: 1px solid gray;
+}
 
 .footer-bg {
     background-color: #2E2E2E
