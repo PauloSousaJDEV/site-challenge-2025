@@ -250,6 +250,10 @@ h3 {
     text-align: center;
     gap: 20px;
 }
+    
+.tecnologia-lista img {
+    width: 300px;
+}
 
 .mkt-lista li {
     width: 200px;
