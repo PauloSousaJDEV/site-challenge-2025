@@ -5,20 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FAQ</title>
     <link rel="stylesheet" href="./css/faq.css">
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-    <header class="header">
-        <h2><img src="img/imagem.png" alt="" style="height:50px; vertical-align: middle;"></h2>
-        <ul class="menu">
-            <li><a href="index.html"> Início</a></li>
-            <li><a href="sobre.html"> Sobre</a></li>
-            <li><a href="faq.html"> FAQ</a></li>
-            <li><a href="contato.html"> Contato</a></li>
-            <li><a href="integrantes.html"> Integrantes</a></li>
-        </ul>
+    <header class="menu-bg">
+        <div class="menu">
+            <div class="menu-logo">
+                <a href="index.html">
+                    <img src="./img/logo_black_white_150px.svg" alt="">
+                </a>
+            </div>
+            <nav class="menu-nav">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>                    
+                    <li><a href="integrantes.html">Integrantes</a></li>
+                    <li><a href="empresa.html">Empresa</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main class="main">
+        <div class="intro-bg__empresa">
+            <div class="intro-page container">
+                <h1>Empresa</h1>
+                <p>Conheça mais sobre a FASTFORWARD, cores, fontes e valores</p>
+            </div>
+        </div>
         <ul class="limita-area">
             <li class="h2-first">
                 <h2>O que é a FastForward?</h2>
@@ -42,16 +60,64 @@
             </li>
         </ul>
 
+        <aside class="info-section container">
+                <section class="info-section__content">
+                    <h3>
+                        Descubra mais sobre nós
+                    </h3>
+                    <p class="info-section__paragrafo">
+                        Confira as nossas outras páginas e saiba mais sobre a empresa, os integrantes ou projetos.
+                    </p>
+                    <div>
+                        <ul class="opcoes-menu">
+                            <a href="">
+                                <li>
+                                    <img src="./img/svg_empresa.svg" alt="">
+                                    <p>
+                                        Sobre a empresa
+                                    </p>
+                                </li>
+                            </a>
+                            <a href="">
+                                <li>
+                                    <img src="./img/svg_sobre.svg" alt="">
+                                    <p>
+                                        Integrantes
+                                    </p>
+                                </li>
+                            </a>
+                            <a href="Perguntas frequentes.html">
+                                <li>
+                                    <img src="./img/svg_faq.svg" alt="">
+                                    <p>
+                                        Perguntas frequentes
+                                    </p>
+                                </li>
+                            </a>
+                        </ul>
+                    </div>
+                </section>
+            </aside>
+
     </main>
 
-    <footer class="footer">
-        <ul class="f-ul">
-            <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-            <li><a href="integrantes.html">Integrantes</a></li>
-            <li><a href="contato.html">Contato</a></li>
-        </ul>
-        <p class="copy"> Copyright 2025 - FastForward. Todos os direitos reservados.</p>
+    <footer class="footer-bg">
+        <div class="footer-menu">
+            <div class="footer-logo">
+                <a href="index.html"><img src="./img/logo_white_blue.svg" alt=""></a>
+                <p> Copyright 2025 - FASTFORWARD. Todos os direitos reservados.</p>
+            </div>
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>                    
+                    <li><a href="integrantes.html">Integrantes</a></li>
+                    <li><a href="integrantes.html">Empresa</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </footer>
 </body>
 </html>
