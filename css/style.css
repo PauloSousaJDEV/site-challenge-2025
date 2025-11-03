@@ -296,7 +296,7 @@ h3 {
 }
 
 .intro-bg {
-    background: linear-gradient(90deg,rgba(51, 205, 232, 1) 0%, rgba(24, 76, 154, 1) 100%);
+    background: linear-gradient(180deg,rgba(51, 205, 232, 1) 0%, rgba(24, 76, 154, 1) 100%);
 }
 
 .intro-page {
@@ -310,17 +310,17 @@ h3 {
 }
 
 .intro-page h1 {
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .integrantes-container {
     padding: 15px 15px;
-    margin-bottom: 2rem;
 }
 
 .integrantes-content {
     display: flex;
-    margin: 15px auto;
+    margin: 15px 0;
+    width: 100%;
     border: 1px solid rgb(235, 235, 235);
     padding: 1.5rem;
     border-radius: 4px;
