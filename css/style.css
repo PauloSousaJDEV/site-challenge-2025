@@ -251,6 +251,31 @@ h3 {
     gap: 20px;
 }
 
+.valores-lista {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    gap: 24px;
+}
+
+
+.valores-lista img {
+    margin: 0 auto 24px;
+    width: 15%;
+}
+
+.valores-lista p {
+    font-weight: 600;
+    color: #575351
+}
+
+.valores-lista li {
+    flex: 1 0 300px;
+}
+
 .tecnologia-lista img {
     width: 300px;
 }
