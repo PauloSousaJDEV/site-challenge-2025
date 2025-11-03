@@ -250,7 +250,7 @@ h3 {
     text-align: center;
     gap: 20px;
 }
-    
+
 .tecnologia-lista img {
     width: 300px;
 }
@@ -315,6 +315,10 @@ h3 {
 
 .intro-bg__sobre {
     background: linear-gradient(90deg,rgba(196, 151, 253, 1) 0%, rgba(29, 60, 216, 1) 100%);
+}
+
+.intro-bg__empresa {
+    background: linear-gradient(180deg,rgba(57, 59, 172, 1) 0%, rgba(49, 163, 204, 1) 100%);
 }
 
 .intro-page h1 {
