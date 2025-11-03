@@ -324,6 +324,28 @@ h3 {
     margin: 0 auto 45px;
 }
 
+.introducao-central-secao {
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 15px 0;
+}
+
+.introducao-central-secao h2 {
+    max-width: 800px;
+    line-height: 1;
+    font-weight: 500;
+    font-size: 3.25rem;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.introducao-central-secao p {
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
 .intro-bg {
     background: linear-gradient(180deg,rgba(51, 205, 232, 1) 0%, rgba(24, 76, 154, 1) 100%);
 }
