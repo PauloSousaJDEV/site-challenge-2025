@@ -5,6 +5,10 @@
     align-items: center;
   }
 
+  .hero-section {
+    margin-bottom: 0px;
+  }
+
   .hero-section__content img {
     display: none;
     }
@@ -28,14 +32,13 @@
 
   .split-section {
     flex-direction: column;
-    padding: 30px 20px;
+    padding: 3rem 1.5rem;
     gap: 0px;
   }
 
   .split-section__content {
     flex: 0;
     margin-bottom: 0px;
-    width: 95%;
   }
 
   .split-section__content img {
@@ -97,7 +100,16 @@
   }
 
   .info-section {
-    padding: inherit 20px;
+    padding: 60px 20px;
+  }
+
+  .marketing {
+    padding: inherit 1.5rem;
+    margin: 1rem 1rem 0;
+  }
+
+  .mkt-lista li {
+    flex: 1 0;
   }
 
 }
