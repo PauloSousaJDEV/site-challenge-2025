@@ -1,4 +1,5 @@
 @media (max-width: 600px) {
+
   .menu {
     flex-direction: column;
     align-items: center;
@@ -27,7 +28,24 @@
 
   .split-section {
     flex-direction: column;
-    padding: 30px 0;
+    padding: 30px 20px;
+    gap: 0px;
+  }
+
+  .split-section__content {
+    flex: 0;
+    margin-bottom: 0px;
+    width: 95%;
+  }
+
+  .split-section__content img {
+    width: 100%;
+    margin: 0 auto 1rem;
+    align-items: center;
+  }
+
+  .split-section-reverse {
+    flex-flow: column-reverse;
   }
 
   .split-section__content p {
@@ -67,6 +85,8 @@
   .intro-page {
     padding: 80px 20px
   }
+
+
 
 }
 
