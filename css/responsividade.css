@@ -17,6 +17,14 @@
     text-align: center;
   }
 
+  .hero-section__content a {
+    display: block;
+    width: 230px;
+    margin: 0 auto;
+    text-align: center;
+
+  }
+
   .split-section {
     flex-direction: column;
     padding: 30px 0;
@@ -24,6 +32,10 @@
 
   .split-section__content p {
     width: 100%;
+  }
+
+    .split-section:nth-child(3) {
+    flex-flow: column-reverse;
   }
 
   .integrantes-content {
@@ -51,6 +63,11 @@
   .opcoes-menu {
     justify-content: center;
   }
+
+  .intro-page {
+    padding: 80px 20px
+  }
+
 }
 
 @media (min-width: 600px) and (max-width: 767px) {
