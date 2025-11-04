@@ -63,10 +63,6 @@
     margin-top: 4rem
   }
 
-    .split-section:nth-child(3) {
-    flex-flow: column-reverse;
-  }
-
   .integrantes-content {
     flex-direction: column;
     text-align: center;
@@ -149,16 +145,63 @@
     flex-direction: column;
   }
 
-  .split-section:nth-child(3) {
-    flex-flow: column-reverse;
+  .container {
+    padding: 2rem 1.5rem;
   }
 
-  .split-section img {    
-    margin: 0 auto;
+  .hero-section {
+    padding: 3rem 1.5rem;
+    margin: 0;
+  }
+
+  .hero-section__content {
+    margin: 0;
+  }
+
+  .hero-section__content a {
+    display: block;
+    margin-top: 4rem;
+    text-align: center;
+  }
+  .hero-section__content p {
+    margin: 0
+  }
+
+  .marketing {
+    padding: 2rem 1.5rem;
+  }
+
+  .split-section {
+    flex-direction: column;
+    padding: 3rem 1.5rem;
+    gap: 0px;
   }
 
   .split-section__content {
-    width: 90%;
+    flex: 0;
+    margin-bottom: 0px;
+  }
+
+  .split-section__content img {
+    width: 100%;
+    margin: 0 auto 1rem;
+    align-items: center;
+    border: 0;
+  }
+
+  .split-section-reverse {
+    flex-flow: column-reverse;
+  }
+
+  .split-section__content p {
+    width: 100%;
+    margin-bottom: 0
+  }
+
+  .split-section__content a {
+    display: block;
+    text-align: center;
+    margin-top: 4rem
   }
 
   .integrantes-content {
@@ -179,16 +222,59 @@
     width: 100%;
   }
 
-}
+  .split-section__content img {
+    border: 1px solid rgb(235, 235, 235);
+  }
 
+  .footer-menu {
+    padding: 1rem 1.5rem;
+  }
+
+  
+
+}
 
 @media (min-width: 768px) and (max-width: 991px) {
   .menu-nav ul {
     justify-content: center;
   }
 
+  .menu {
+    padding: 1rem 1rem;
+  }
+  
+  .container {
+    padding: 1rem 1.5rem;
+  }
+
+  .marketing {
+    padding: 3rem 1.5rem;
+  }
+
+  .hero-section img {
+    display: none;
+  }
+
+  .hero-section__content {
+    margin: 0
+  } 
+
   .split-section {
     flex-wrap: wrap;
+  }
+
+  .split-section__content{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .split-section__content img{
+    width: 70%;
+  }
+
+  .split-section-reverse {
+    flex-flow: column-reverse;
   }
 
   .integrantes-content {
