@@ -45,6 +45,7 @@
     width: 100%;
     margin: 0 auto 1rem;
     align-items: center;
+    border: 0;
   }
 
   .split-section-reverse {
@@ -53,6 +54,13 @@
 
   .split-section__content p {
     width: 100%;
+    margin-bottom: 0
+  }
+
+  .split-section__content a {
+    display: block;
+    text-align: center;
+    margin-top: 4rem
   }
 
     .split-section:nth-child(3) {
@@ -92,7 +100,8 @@
 
   .intro-page {
     padding: 80px 20px;
-  }
+    margin: 0
+  }  
 
   .intro-page h1 {
     line-height: 4rem;
@@ -112,6 +121,10 @@
     flex: 1 0;
   }
 
+  .introducao-central-secao {
+    margin: 1rem;
+    padding: 2rem 1rem;
+  }
 }
 
 @media (min-width: 600px) and (max-width: 767px) {
