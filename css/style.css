@@ -200,6 +200,9 @@ h3 {
 }
 
 .opcoes-menu a {
+    display: block;
+    max-width: 300px;
+    flex: 1 1 180px;
     border: 1px solid rgb(235, 235, 235);
 }
 

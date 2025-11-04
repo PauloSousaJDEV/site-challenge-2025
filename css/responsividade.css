@@ -1,0 +1,148 @@
+@media (max-width: 600px) {
+  .menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-section__content img {
+    display: none;
+    }
+
+  .hero-section__content h1 {
+    text-align: center;
+  }
+
+  .hero-section__content p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .split-section {
+    flex-direction: column;
+    padding: 30px 0;
+  }
+
+  .split-section__content p {
+    width: 100%;
+  }
+
+  .integrantes-content {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .integrante-img img {
+    width: 200px;
+  }
+
+  .integrante-link {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 1rem;
+  }
+
+  .footer-menu {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .opcoes-menu {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .menu {
+    flex-direction: column;
+  }
+  
+  .hero-section img {
+    display: none;
+  }
+
+  .split-section {
+    gap: 0px;
+    flex-direction: column;
+  }
+
+  .split-section:nth-child(3) {
+    flex-flow: column-reverse;
+  }
+
+  .split-section img {    
+    margin: 0 auto;
+  }
+
+  .split-section__content {
+    width: 90%;
+  }
+
+  .integrantes-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .integrante-img img {
+    width: 220px;
+  }
+
+  .opcoes-menu {
+    justify-content: center;
+  }
+
+  .opcoes-menu img{
+    max-height: 150px;
+    width: 100%;
+  }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .menu-nav ul {
+    justify-content: center;
+  }
+
+  .split-section {
+    flex-wrap: wrap;
+  }
+
+  .integrantes-content {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .integrante-img img {
+    width: 250px;
+  }
+
+  .info-section__content {
+    text-align: center;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1299px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .integrante-img img {
+    width: 260px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .container {
+    max-width: 1200px;
+  }
+
+  .hero-section__content h1 {
+    font-size: 4.5rem;
+  }
+
+  .integrante-img img {
+    width: 300px;
+  }
+}
