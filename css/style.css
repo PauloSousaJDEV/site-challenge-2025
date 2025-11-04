@@ -368,6 +368,10 @@ h3 {
     background: linear-gradient(180deg,rgba(57, 59, 172, 1) 0%, rgba(49, 163, 204, 1) 100%);
 }
 
+.intro-bg__faq {
+    background: linear-gradient(-90deg, rgb(54, 190, 240) 0%, rgb(75, 25, 255) 100%);
+}
+
 .intro-page h1 {
     font-size: 4rem;
 }
