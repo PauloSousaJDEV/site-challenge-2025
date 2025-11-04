@@ -372,7 +372,11 @@ h3 {
 }
 
 .intro-bg__faq {
-    background: linear-gradient(-90deg, rgb(54, 190, 240) 0%, rgb(75, 25, 255) 100%);
+    background: linear-gradient(-90deg, rgb(54, 190, 240) 0%, rgb(59, 15, 218) 100%);
+}
+
+.intro-bg__contato {
+    background: linear-gradient(180deg, rgb(86, 154, 255) 0%, rgb(62, 91, 255) 100%)
 }
 
 .intro-page h1 {
