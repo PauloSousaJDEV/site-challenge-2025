@@ -73,7 +73,12 @@
     margin-top: 1rem;
   }
 
+  .footer-menu img {
+    margin: 0 auto;
+  }
+
   .footer-menu {
+    width: 95%;
     flex-direction: column;
     text-align: center;
   }
@@ -83,10 +88,17 @@
   }
 
   .intro-page {
-    padding: 80px 20px
+    padding: 80px 20px;
   }
 
+  .intro-page h1 {
+    line-height: 4rem;
+    margin-bottom: 8px;
+  }
 
+  .info-section {
+    padding: inherit 20px;
+  }
 
 }
 
