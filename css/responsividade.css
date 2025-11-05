@@ -244,50 +244,83 @@
   }
   
   .container {
-    padding: 1rem 1.5rem;
+    max-width: 800px
   }
 
   .marketing {
     padding: 3rem 1.5rem;
   }
 
+  .hero-section {
+    text-align: center;
+  }
+
   .hero-section img {
     display: none;
   }
-
-  .hero-section__content {
-    margin: 0
-  } 
-
-  .split-section {
-    flex-wrap: wrap;
-  }
-
-  .split-section__content{
-    justify-content: center;
-    align-items: center;
+  
+  .hero-section p {
     width: 100%;
   }
 
-  .split-section__content img{
-    width: 70%;
+  .hero-section__content {
+    flex: 0 0 100%;
+    margin: 0;
+    width: 100%;
+  } 
+
+  .split-section {
+    gap: 0;
+    flex-wrap: wrap;
+    padding: 3rem 1.5rem;
+    flex-direction: column;
+  }
+
+  .split-section img { 
+    margin-bottom: 2rem;
+    max-height: 300px;
+    border: none
+  }
+
+  .split-section__content {
+    flex: 0;
+    margin: 0;
+  }
+
+  .split-section__content p {
+    width: 100%;
+    margin-bottom: 0;
+    
+  }
+
+  .split-section__content a {
+    display: block;
+    text-align: center;
+    margin-top: 4rem
   }
 
   .split-section-reverse {
-    flex-flow: column-reverse;
+    flex-direction: column-reverse;
   }
 
   .integrantes-content {
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: row;    
   }
 
   .integrante-img img {
     width: 250px;
   }
 
+  .info-section {
+    padding: 3rem 1.5rem;
+  }
+
   .info-section__content {
-    text-align: center;
+    margin: 0;
+  }
+
+  .intro-page {
+    padding: 3rem 1rem;
   }
 }
 
