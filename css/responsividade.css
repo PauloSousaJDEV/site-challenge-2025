@@ -108,12 +108,12 @@
     padding: 60px 20px;
   }
 
-  .marketing {
+  .highlights {
     padding: inherit 1.5rem;
     margin: 1rem 1rem 0;
   }
 
-  .mkt-lista li {
+  .highlight-lista li {
     flex: 1 0;
   }
 
@@ -167,7 +167,7 @@
     margin: 0
   }
 
-  .marketing {
+  .highlights {
     padding: 2rem 1.5rem;
   }
 
@@ -247,7 +247,7 @@
     max-width: 800px
   }
 
-  .marketing {
+  .highlights {
     padding: 3rem 1.5rem;
   }
 
@@ -363,11 +363,11 @@
     padding: 3rem 0;
   }
   
-  .marketing {
+  .highlights {
     padding: 3rem 3rem
   }
 
-  .mkt-item {
+  .highlight-item {
     margin: 0 auto;
   }
 
