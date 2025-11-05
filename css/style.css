@@ -476,3 +476,55 @@ h3 {
     color: white;
     padding: 15px;    
 }
+
+.faq-section {
+  max-width: 700px;
+  margin: 50px auto;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.faq-section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: 'Teko', sans-serif;
+  font-size: 2rem;
+}
+
+details {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background: #fff;
+  width: 100%;
+}
+
+details:hover {
+  background: #e4e7ff;
+}
+
+summary {
+  font-weight: bold;
+  cursor: pointer;
+  list-style: none;
+  position: relative;
+}
+
+summary::after {
+  content: "▾";
+  position: absolute;
+  right: 0;
+}
+
+details p {
+  margin-top: 1rem;
+  line-height: 1.5;
+}
+
+.faq-intro {
+    padding: 2rem 0;
+}
+
+.faq-item {
+    width: 100%;
+}
