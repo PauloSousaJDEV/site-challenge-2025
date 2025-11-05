@@ -307,6 +307,10 @@
     flex-direction: row;    
   }
 
+  .integrantes-container {
+    padding: 2rem 1.5rem;
+  }
+
   .integrante-img img {
     width: 250px;
   }
@@ -320,7 +324,16 @@
   }
 
   .intro-page {
-    padding: 3rem 1rem;
+    padding: 3rem 1rem;   
+    margin: 0 
+  }
+
+  .sobre-img {
+    display: none
+  }
+
+  .introducao-central-secao {
+    padding: 3rem 0;
   }
 }
 
