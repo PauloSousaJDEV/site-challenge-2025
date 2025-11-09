@@ -416,4 +416,8 @@
   .integrante-img img {
     width: 300px;
   }
+
+  .highlight-item {
+    margin: 0 auto;
+  }
 }
