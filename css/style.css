@@ -6,7 +6,7 @@
 }
 
 html {
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 body {
@@ -60,7 +60,7 @@ h3 {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 15px 0px;
+    padding: 1rem 0rem;
 }
 
 .menu-logo img {
@@ -79,14 +79,14 @@ h3 {
 
 .menu-nav a {
     display: block;
-    padding: 10px;
+    padding: 0.625rem;
     font-size: 1.25rem;
 }
 
 .menu a {
     color: #FFFFFF; 
     font-weight: bold;
-    padding: 10px 15px;
+    padding: 0.625rem 1rem;
     text-decoration: none;
 }
 
@@ -115,40 +115,40 @@ h3 {
 }
 
 .hero-section {
-    margin: 30px auto 60px;
-    padding: 15px 0px;
+    margin: 1.875rem auto 3.75rem;
+    padding: 1rem 0rem;
 }
 
 .hero-section__content {
     flex: 1 1 300px;
-    margin: 15px
+    margin: 1rem;
 }
 
 .hero-section__content h1 {
     font-size: 4.80rem;
     font-weight: 600;
     line-height: 80px;
-    margin-bottom: 12px;
+    margin-bottom: 0.75rem;
 }
 
 .hero-section__content p {
     width: 480px;
-    margin-bottom: 48px
+    margin-bottom: 3rem;
 }
 
 .split-section {
-    padding: 60px 0px;
+    padding: 3.75rem 0rem;
     gap: 40px
 }
 
 .split-section__content {
     flex: 1 1 300px;
-    margin: 15px
+    margin: 1rem;
 }
 
 .split-section__content p {
     width: 490px;
-    margin-bottom:64px
+    margin-bottom:3rem;
 }
 
 .split-section__content img {
@@ -159,7 +159,7 @@ h3 {
 .split-section__content a {
     border: 2px solid #627DFF;
     border-radius: 4px;
-    padding: 10px 50px;
+    padding: 0.625rem 3.125rem;
     font-weight: bold;
     color: #627DFF
 }
@@ -170,16 +170,16 @@ h3 {
 }
 
 .info-section {
-    padding: 120px 0px;
+    padding: 7.5rem 0rem;
     gap: 40px;
 }
 
 .info-section__content {
-    margin: 0px 15px 64px;
+    margin: 0rem 1rem 4rem;
 }
 
 .info-section__paragrafo {    
-    margin-bottom:64px
+    margin-bottom:4rem;
 }
 
 .opcoes-menu {
@@ -189,7 +189,7 @@ h3 {
 }
 
 .opcoes-menu li {
-    padding: 20px;
+    padding: 1.25rem;
     width: 300px;
 
     border-radius: 4px
@@ -215,14 +215,14 @@ h3 {
 .opcoes-menu img {
     margin: 0 auto;
     height: 150px;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .btn-intro {
     color: white;
     font-weight: bold;
     background: linear-gradient(90deg,rgba(112, 20, 142, 1) 0%, rgba(33, 75, 181, 1) 100%);
-    padding: 10px 50px;
+    padding: 0.625rem 3.125rem;
     border-radius: 4px;
     transition: all 0.6s ease;
     background-size: 200% 100%;
@@ -237,8 +237,8 @@ h3 {
 .highlights {
     align-items: center;
     max-width: 1200px;
-    margin: 0px auto;
-    padding: 60px 15px;
+    margin: 0rem auto;
+    padding: 3.75rem 1rem;
 }
 
 .highlight-item {
@@ -293,18 +293,18 @@ h3 {
   width: 24px;
   height: 2px;
   background: linear-gradient(90deg, rgba(112,20,142,1) 0%, rgba(33,75,181,1) 100%);
-  margin: 8px auto 16px;
+  margin: 0.5rem auto 1rem;
 }
 
 .highlight-bottom img {
-    margin: 0 auto 20px
+    margin: 0rem auto 1.25rem;
 }
 
 .highlight-bottom p {
     text-align: center;
     font-weight: bold;
     color: #474645;
-    margin: 0 auto 30px;
+    margin: 0rem auto 1.875rem;
     letter-spacing: 4px;
     width: 80%;
 }
@@ -315,24 +315,24 @@ h3 {
     font-weight: 500;
     font-size: 3.25rem;
     text-align: center;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
 }
 
 .highlight-top p {
     max-width: 800px;
     text-align: center;
-    margin-bottom: 64px;
+    margin-bottom: 4rem;
 }
 
 .highlight-top img {
-    margin: 0 auto 45px;
+    margin: 0rem auto 2.8125rem;
 }
 
 .introducao-central-secao {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 60px 15px 0;
+    padding: 3.75rem 1rem 0rem;
 }
 
 .introducao-central-secao h2 {
@@ -341,7 +341,7 @@ h3 {
     font-weight: 500;
     font-size: 3.25rem;
     text-align: center;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
 }
 
 .introducao-central-secao p {
@@ -360,8 +360,8 @@ h3 {
     text-align: center;
     align-content: center;
     color: white;
-    padding: 80px 0px;
-    margin-bottom: 32px;
+    padding: 5rem 0rem;
+    margin-bottom: 2rem;
 }
 
 .intro-bg__sobre {
@@ -385,12 +385,12 @@ h3 {
 }
 
 .integrantes-container {
-    padding: 15px 15px;
+    padding: 1rem 1rem;
 }
 
 .integrantes-content {
     display: flex;
-    margin: 15px 0;
+    margin: 1rem 0;
     width: 100%;
     border: 1px solid rgb(235, 235, 235);
     padding: 1.5rem;
@@ -442,7 +442,7 @@ h3 {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 15px 0px;
+    padding: 1rem 0rem;
     color: white;
 }
 
@@ -455,7 +455,7 @@ h3 {
     color: white;
     text-decoration: none;
     display: block;
-    padding: 10px;
+    padding: 0.625rem;
     font-size: 1.25rem;
     font-weight: bold;
 }
@@ -474,12 +474,12 @@ h3 {
     flex-direction: column;
     gap: 20px;
     color: white;
-    padding: 15px;    
+    padding: 1rem;    
 }
 
 .faq-section {
   max-width: 700px;
-  margin: 50px auto;
+  margin: 3.125rem auto;
   font-family: 'Open Sans', sans-serif;
 }
 
