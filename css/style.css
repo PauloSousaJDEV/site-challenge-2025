@@ -439,11 +439,12 @@ h3 {
 .footer-menu {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
     padding: 1rem 0;
-    color: white;
+    color: rgb(192, 188, 188);
 }
 
 .footer-nav ul {
@@ -452,16 +453,16 @@ h3 {
 }
 
 .footer-nav a {
-    color: white;
+    color: rgb(192, 188, 188);
     text-decoration: none;
     display: block;
     padding: 0.625rem;
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: bold;
 }
 
 .footer-nav a:hover {
-    color: #5363f8
+    color: #606166
 }
 
 .footer-menu img {
@@ -473,7 +474,7 @@ h3 {
     flex-wrap: wrap;
     flex-direction: column;
     gap: 20px;
-    color: white;
+    color: rgb(192, 188, 188);
     padding: 1rem;    
 }
 
