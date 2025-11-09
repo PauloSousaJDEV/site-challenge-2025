@@ -18,25 +18,27 @@ form.addEventListener("submit", function(e) {
   const contato = document.getElementById("contato").value.trim();
 
   if (!apenasTexto.test(nome)) {
-    alert("Nome inválido. Digite apenas letras.");
-    return;
-  }
-
+    alert("Nome inválido."); return; }
   if (!apenasTexto.test(assunto)) {
-    alert("Assunto inválido. Digite apenas letras.");
-    return;
-  }
-
+    alert("Assunto inválido."); return; }
   if (!apenasTexto.test(mensagem)) {
-    alert("Mensagem inválida. Digite apenas letras.");
-    return;
-  }
-
+    alert("Mensagem inválida."); return; }
   if (!telMinimo(contato)) {
-    alert("Telefone inválido. Digite pelo menos 11 números.");
-    return;
-  }
+    alert("Telefone inválido."); return; }
 
-  alert("Formulário enviado com sucesso!");
+  const dados = {
+    nome: nome,
+    contato: contato,
+    assunto: assunto,
+    mensagem: mensagem
+  };
+
+  localStorage.setItem("formContato", JSON.stringify(dados));
+
+  console.log("Dados do formulário:");
+  console.log(dados);
+
+  alert("Formulário válido! Enviado com sucesso.");
+
   form.submit();
 });
