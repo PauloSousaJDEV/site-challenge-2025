@@ -1,11 +1,11 @@
-# 🌐 FASTFORWARD
+# FASTFORWARD
 
 A **FASTFORWARD** é uma empresa de tecnologia voltada para o desenvolvimento de soluções digitais inovadoras. Atuamos na criação de sistemas web, automações e plataformas inteligentes que simplificam processos e impulsionam o crescimento de pessoas e organizações.  
 Nosso foco é unir **design funcional, eficiência e acessibilidade**, entregando experiências digitais modernas e intuitivas.  
 
 ---
 
-## 🚀 Projeto: Sistema PÉROLA
+## Projeto: Sistema PÉROLA
 
 O **PÉROLA** é um sistema de **Gestão de Atendimento e Controle de Tickets**, desenvolvido em parceria com a ONG **Turma do Bem**.  
 Seu objetivo é otimizar o processo de atendimento, permitindo registrar, acompanhar e encerrar solicitações de forma prática e organizada, gerando relatórios para apoio na tomada de decisões.
@@ -18,7 +18,7 @@ Seu objetivo é otimizar o processo de atendimento, permitindo registrar, acompa
 
 ---
 
-## 🧠 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 | Camada | Tecnologias |
 |:-------|:-------------|
@@ -29,40 +29,40 @@ Seu objetivo é otimizar o processo de atendimento, permitindo registrar, acompa
 
 ---
 
-## 🎨 Identidade Visual
+## Identidade Visual
 
 A identidade visual foi pensada para transmitir **inovação, dinamismo e modernidade**.
 
-### ✴️ Fontes
+### Fontes
 - **Teko:** geométrica e robusta, transmite modernidade, confiança e tecnologia.  
 - **Open Sans:** limpa e versátil, garante excelente leitura e equilíbrio visual.
 
-### 🟦 Cores
+### Cores
 A paleta utiliza tons de **azul** e **roxo**, que simbolizam tecnologia, criatividade e confiança:  
 - **Azul:** segurança, estabilidade e profissionalismo.  
 - **Roxo:** originalidade, sofisticação e inovação.  
 
-### 🧩 Ícones
+### Ícones
 Os ícones seguem estilo minimalista e uniforme, reforçando a clareza e a coerência visual da interface.
 
 ---
 
-## 👥 Integrantes
+## Integrantes
 
 | Nome | RM | Turma | Função |
 |------|----|--------|--------|
 | **Paulo Sousa** | 568580 | 1TDSPR | Representante do grupo, comunicação e liderança |
-| **Cássio Ribeiro** | 567295 | 1TDSPR | Especialista em processos e documentação |
+| **Cassio Ribeiro** | 567295 | 1TDSPR | Especialista em processos e documentação |
 | **Miguel Kenzo** | 567852 | 1TDSPR | Desenvolvimento Front-End e UI |
 
-🔗 **GitHub dos integrantes:**
+**GitHub dos integrantes:**
 - [Paulo Sousa](https://github.com/PauloSousaJDEV)  
-- [Cássio Ribeiro](https://github.com/cassio-ribeiro)  
+- [Cassio Ribeiro](https://github.com/cassio-ribeiro)  
 - [Miguel Kenzo](https://github.com/MiguelKyv)
 
 ---
 
-## 📁 Estrutura de Pastas
+## Estrutura de Pastas
 ```plaintext
 site-challenge-2025/
 ├─ css/
@@ -99,7 +99,7 @@ site-challenge-2025/
 
 ---
 
-## 🖼️ Imagens e Ícones
+## Imagens e Ícones
 
 | Elemento | Descrição |
 |-----------|------------|
@@ -110,17 +110,6 @@ site-challenge-2025/
 
 ---
 
-## 🌍 Link do Repositório
+## Link do Repositório
 
-🔗 [https://github.com/PauloSousaJDEV/site-challenge-2025](https://github.com/PauloSousaJDEV/site-challenge-2025)
-
----
-
-## 🏁 Conclusão
-
-O projeto **FASTFORWARD** representa uma iniciativa colaborativa para unir **design, tecnologia e propósito social**.  
-Com o **Sistema Pérola**, reforçamos nosso compromisso em **tornar a tecnologia acessível, eficiente e humana** — acelerando o futuro digital.
-
----
-
-📅 *Desenvolvido em 2025 — FIAP | Challenge Sprint 2*
+[https://github.com/PauloSousaJDEV/site-challenge-2025](https://github.com/PauloSousaJDEV/site-challenge-2025)
