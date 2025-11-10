@@ -64,22 +64,37 @@ Os ícones seguem estilo minimalista e uniforme, reforçando a clareza e a coer�
 
 ## 📁 Estrutura de Pastas
 
-📂 site-challenge-2025
-├── 📁 css/
-│ └── style.css
-├── 📁 img/
-│ ├── logo_white_blue.svg
-│ ├── logo_black_white_150px.svg
-│ ├── icones.svg
-│ └── demais imagens do projeto
-├── index.html
-├── sobre.html
-├── empresa.html
-├── integrantes.html
-├── faq.html
-├── contato.html
-├── README.md
-
+site-challenge-2025/
+├─ css/
+│  └─ style.css
+├─ img/
+│  ├─ logo_white_blue.svg
+│  ├─ logo_black_white_150px.svg
+│  ├─ icon_logo.svg
+│  ├─ icon_paleta.svg
+│  ├─ icon_lampada.svg
+│  ├─ icon_escudo.svg
+│  ├─ icon_fluxo.svg
+│  ├─ intro-img.jpg
+│  ├─ projeto_perola_2.png
+│  ├─ turma-do-bem.png
+│  ├─ sobre_nos.png
+│  ├─ cores.png
+│  ├─ icones.png
+│  ├─ texto.png
+│  ├─ cassio.jpg
+│  ├─ paulo.jpg
+│  ├─ miguel.jpg
+│  └─ svg_*.svg           # (svg_contact.svg, svg_empresa.svg, svg_faq.svg, svg_inicio.svg, svg_projeto.svg, svg_sobre.svg)
+├─ js/
+│  └─ validacao-form.js
+├─ index.html
+├─ sobre.html
+├─ empresa.html
+├─ integrantes.html
+├─ faq.html
+├─ contato.html
+└─ README.md
 
 ---
 
