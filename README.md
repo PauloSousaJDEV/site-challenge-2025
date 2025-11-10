@@ -63,7 +63,7 @@ Os ícones seguem estilo minimalista e uniforme, reforçando a clareza e a coer�
 ---
 
 ## 📁 Estrutura de Pastas
-
+```plaintext
 site-challenge-2025/
 ├─ css/
 │  └─ style.css
@@ -95,6 +95,7 @@ site-challenge-2025/
 ├─ faq.html
 ├─ contato.html
 └─ README.md
+```
 
 ---
 
